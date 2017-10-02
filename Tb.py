@@ -13,7 +13,9 @@ if initialuserq == "yes":
 
 	blob = TextBlob(text)
 	#blob.tags           
-
+	
+	#uses textblob documentation
+			 
 	nouns = list()
 	for word, tag in blob.tags:
 	    if tag == 'NN':
